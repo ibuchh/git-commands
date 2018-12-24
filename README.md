@@ -1,6 +1,7 @@
 # **Git** commands
-Here are the Git commands which are being covered:
 
+Here are the Git commands which are being covered:
+___
 ## **git config**
 
 Usage: git config –global _user.name_ “[name]”  
