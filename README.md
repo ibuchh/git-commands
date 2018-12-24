@@ -216,6 +216,10 @@ This command pushes all branches to your remote repository.
 
 Usage: git push [variable name] :[branch name]  
 
+Usage: git push [variable name] --delete [branch name]  
+
+        git push origin --delete feature
+
 This command deletes a branch on your remote repository.
 
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/37.png)
