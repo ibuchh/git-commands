@@ -23,6 +23,10 @@ This command is used to start a new repository.
 
 Usage: git clone [url]  
 
+Usage: git clone -b my-branch --single-branch [url] 
+
+    git clone -b feature --sngle-branch https:github.com/ibuchh/git-commands.git
+
 This command is used to obtain a repository from an existing URL.
 
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/4-4.png)
