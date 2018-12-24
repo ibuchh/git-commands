@@ -1,7 +1,7 @@
 # **Git** commands
 Here are the Git commands which are being covered:
 
-**git config**
+## **git config**
 
 Usage: git config –global _user.name_ “[name]”  
 
@@ -11,7 +11,7 @@ This command sets the author name and email address respectively to be used with
 
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/1-9.png)
 
-**git init**
+## **git init**
 
 Usage: git init [repository name]
 
@@ -19,7 +19,7 @@ This command is used to start a new repository.
 
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/2-6.png)
 
-**git clone**
+## **git clone**
 
 Usage: git clone [url]  
 
@@ -27,7 +27,7 @@ This command is used to obtain a repository from an existing URL.
 
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/4-4.png)
 
-**git add**
+## **git add**
 
 Usage: git add [file]  
 
@@ -35,7 +35,7 @@ This command adds a file to the staging area.
 
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/5-4.png)
 
-**git commit**
+## **git commit**
 
 Usage: git commit -m “[ Type in the commit message]”  
 
@@ -49,7 +49,7 @@ This command commits any files you’ve added with the git add command and also 
 
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/8-2.png)
 
-**git diff**
+## **git diff**
 
 Usage: git diff  
 
@@ -70,7 +70,7 @@ This command shows the differences between the two branches mentioned.
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/43.png)
 
 
-**git reset**
+## **git reset**
 
 Usage: git reset [file]  
 
@@ -89,7 +89,7 @@ Usage: git reset –hard [commit]  This command discards all history and goes ba
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/13-1.png)
 
 
-**git status**
+## **git status**
 
 Usage: git status  
 
@@ -98,7 +98,7 @@ This command lists all the files that have to be committed.
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/15-1.png)
 
 
-**git rm**
+## **git rm**
 
 Usage: git rm [file]  
 
@@ -108,7 +108,7 @@ This command deletes the file from your working directory and stages the deletio
 
 
 
-**git log**
+## **git log**
 
 Usage: git log  
 
@@ -123,7 +123,7 @@ This command lists version history for a file, including the renaming of files a
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/19.png)
 
 
-**git show**
+## **git show**
 Usage: git show [commit]  
 
 This command shows the metadata and content changes of the specified commit.
@@ -131,7 +131,7 @@ This command shows the metadata and content changes of the specified commit.
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/20.png)
 
 
-**git tag**
+## **git tag**
 
 Usage: git tag [commitID]  
 
@@ -140,7 +140,7 @@ This command is used to give tags to the specified commit.
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/22.png)
 
 
-**git branch**
+## **git branch**
 
 Usage: git branch  
 
@@ -161,7 +161,7 @@ This command deletes the feature branch.
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/25.png)
 
 
-**git checkout**
+## **git checkout**
 
 Usage: git checkout [branch name]  
 
@@ -176,7 +176,7 @@ This command creates a new branch and also switches to it.
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/28.png)
 
 
-**git merge**
+## **git merge**
 
 Usage: git merge [branch name]  
 
@@ -185,7 +185,7 @@ This command merges the specified branch’s history into the current branch.
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/31-1.png)
 
 
-**git remote**
+## **git remote**
 
 Usage: git remote add [variable name] [Remote Server Link]  
 
@@ -194,7 +194,7 @@ This command is used to connect your local repository to the remote server.
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/32.png)
 
 
-**git push**
+## **git push**
 
 Usage: git push [variable name] master  
 
@@ -221,7 +221,7 @@ This command deletes a branch on your remote repository.
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/37.png)
 
 
-**git pull**
+## **git pull**
 
 Usage: git pull [Repository Link]  
 
@@ -230,7 +230,7 @@ This command fetches and merges changes on the remote server to your working dir
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/38.png)
 
 
-**git stash**
+## **git stash**
 
 Usage: git stash save  
 
