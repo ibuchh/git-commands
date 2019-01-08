@@ -142,6 +142,13 @@ Usage: git tag [commitID]
 
 This command is used to give tags to the specified commit.
 
+git tag -a v1.0.0 -m "Release 1.0.0"
+
+git tag
+
+git push origin v1.0.0
+
+
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/22.png)
 
 
